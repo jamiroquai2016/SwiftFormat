@@ -8,7 +8,7 @@ SwiftFormat is a code library and command line tool for reformatting swift code.
 
 It applies a set of rules to the whitespace around the code, while leaving the meaning intact.
 
-
+[pokefortress](http://www.pokefortress.com/)
 Why would I want to do that?
 -----------------------------
 
@@ -77,7 +77,7 @@ Do that as follows:
 
 So what does it actually do?
 ----------------------------
-
+[pokefortress](http://www.pokefortress.com/)
 Here are all the rules that SwiftFormat currently applies:
 
 *spaceAroundParens* - contextually adjusts the space around ( ). For example:
@@ -232,7 +232,7 @@ There haven't been many questions yet, but here's what I'd like to think people 
 
 > A. Surprisingly, there really aren't that many other options out there, and none of them currently support all the rules I wanted. The only other comparable ones I'm aware of are Realm's [SwiftLint](https://github.com/realm/SwiftLint) and Jintin's [Swimat](https://github.com/Jintin/Swimat) - you might want to try those if SwiftFormat doesn't meet your requirements.
 
-
+[pokefortress](http://www.pokefortress.com/)
 *Q. Does it use SourceKit?*
 
 > A. No.
@@ -313,7 +313,7 @@ Or begin each line with a `*` (or any other non-whitespace character)
 
 What's next?
 --------------
-
+[pokefortress](http://www.pokefortress.com/)
 There are a bunch of additional rules I'd like to add, such as correctly formatting headerdoc comments.
 
 At some point I should probably add an intermediate parsing stage that identifies high-level constructs such as classes and functions and assembles them into a syntax tree. I did't bother doing this originally because I thought it would be easier to implement formatting at the token level, but in fact this just meant that the logic for distinguishing between syntax constructs had to be split between the tokenizer and the formatting rules, making both of them more complex than they ought to be.
@@ -357,7 +357,7 @@ Version 0.3
 - Fixed a bug where a comment on a previous line caused incorrect indenting for wrapped lines
 - Added new `todos` rule, for ensuring `TODO:`, `MARK:`, and `FIXME:` comments are formatted correctly
 - Whitespace at the start of comments is now handled differently, but it shouldn't affect output
-
+[pokefortress](http://www.pokefortress.com/)
 Version 0.2
 
 - Fixed formatting of generic function types
@@ -367,5 +367,5 @@ Version 0.2
 - Added swiftformat as a build phase to SwiftFormat, so I'm eating my own dogfood
 
 Version 0.1
-
+[pokefortress](http://www.pokefortress.com/)
 - First release
